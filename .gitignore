@@ -1,0 +1,9 @@
+.bundle/*
+tmp/*
+config.yml
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.sass-cache
+*.log
