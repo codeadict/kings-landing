@@ -4,7 +4,7 @@ A modern, simple, customizable landing page dedicated to early customer acquisit
 
 ## Demo
 
-You can currently see a deployed demo []()
+You can currently see a deployed demo [https://kings-landing-2018.herokuapp.com](https://kings-landing-2018.herokuapp.com)
 
 ## Configuration
 
