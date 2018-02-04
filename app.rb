@@ -38,6 +38,9 @@ class KingsLanding < Sinatra::Base
 
     unless email.nil? || email.strip.empty?
       collect_email(email, full_name)
+      if request.xhr?
+        "ok"
+      end
     end
   end
 
