@@ -36,3 +36,19 @@ Run it locally with:
 ```console
 foreman start
 ```
+
+## Deployment to Heroku
+
+First make sure to have your **config.yml** with all the settings and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) installed.
+
+Create your app:
+
+```console
+heroku create your_cool_startup
+```
+
+Push the app:
+
+```console
+git push heroku master
+```
