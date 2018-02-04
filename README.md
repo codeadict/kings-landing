@@ -26,7 +26,7 @@ The available options are:
 * **subscribe_button_text:** Text of the subscribe button, e.g. "I'm In".
 * **background_image_url:** The url to your site's background image, use one with good resolution.
 * **google_drive_credentials:** Credentials to access Google Drive and write the spreadsheet, the easiest way to generate this is by running `$ rake setup_google_auth` and follow the instructions.
-* **spreadsheet_key:** The key that identifies your spreadsheet, can be found in the spreadsheet url in your browser, e.g. in https://docs.google.com/spreadsheets/d/1Uepgo8_MyxqQrpr-ON94Q26Pyi0I9zTvno19kecef4I the key is **1Uepgo8_MyxqQrpr-ON94Q26Pyi0I9zTvno19kecef4I**
+* **spreadsheet_key:** The key that identifies your spreadsheet, can be found in the spreadsheet url in your browser, e.g. in https://docs.google.com/spreadsheets/d/1Uepgo8_MyxqQrpr-ON94Q26Pyi0I9zTvno19kecef4I the key is **1Uepgo8_MyxqQrpr-ON94Q26Pyi0I9zTvno19kecef4I**.
 * **google_analytics_key:** This is the Google anlytics tracking code, see https://support.google.com/analytics/answer/1008080?hl=en for more info on how to obtain it.
 
 ## Getting started
