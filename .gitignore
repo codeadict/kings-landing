@@ -7,4 +7,3 @@ config.yml
 .DS_Store
 .sass-cache
 *.log
-config.yml
