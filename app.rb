@@ -20,8 +20,8 @@ class KingsLanding < Sinatra::Base
 
   get '/' do
     @product_title = settings.product_title
-    @subscribe_headline = settings.subscribe_headline
     @product_description = settings.product_description
+    @subscribe_headline = settings.subscribe_headline
     @subscribe_button_text = settings.subscribe_button_text
     @subscribe_button_color = settings.subscribe_button_color
     @background_image_url = settings.background_image_url
