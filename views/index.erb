@@ -1,0 +1,50 @@
+<section>
+    <div class="floating-signup__wrap col-12 col-md-6 col-offset-0 col-md-offset-3 floaty-vertical--middle floaty-horizontal--center floaty-unfloat-at--xs">
+        <div class="floating-signup rel">
+            <div class="container-fluid rel">
+                <div class="row">
+                    <div class="user-signup__intro">
+                        <h1 style="text-align: center;">
+                            <%= @product_title %>
+                        </h1>
+                        <p style="text-align: center;">
+                            <%= @product_description %>
+                        </p>
+                        <p style="text-align: center;">
+                            <span style="font-size: 14px;">
+                                <%= @subscribe_headline %>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="form form-horizontal user-signup__form" name="form" novalidate="" action="/subscribe" method="POST">
+                        <div class="mt-table--full">
+                            <div class="mt-td--centered-vertical user-signup__col-1">
+                                <div class="user-signup__form-group m-lg-v form-group col-sm-12">
+                                    <input type="text" name="full_name" class="form-control form-control__input" placeholder="Full Name" aria-required="true"
+                                        required="required">
+                                </div>
+                            </div>
+                            <div class="mt-td--centered-vertical user-signup__col-1">
+                                <div class="user-signup__form-group m-lg-v form-group col-sm-12">
+                                    <input type="email" name="email" class="form-control form-control__input user-signup__email" pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/"
+                                        placeholder="Email" aria-required="true" required="required">
+                                </div>
+                            </div>
+                            <div class="mt-td--centered-vertical user-signup__col-2">
+                                <div class="user-signup__form-group m-lg-v form-group text-center">
+                                    <button type="submit" class="btn btn-default submit user-signup__submit" style="background-color: <%= @subscribe_button_color %>">
+                                        <span>
+                                            <%= @subscribe_button_text %>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
