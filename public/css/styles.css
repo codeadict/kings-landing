@@ -11,12 +11,15 @@ body {
   font-family: sans-serif;
   line-height: 1.42857;
   font-size: 17px;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 1);
   color: #FFF;
   word-wrap: normal;
 }
 
-a,a:visited,a:active,a:hover {
+a,
+a:visited,
+a:active,
+a:hover {
   color: #FFF;
   text-decoration: underline;
 }
@@ -61,7 +64,11 @@ section {
 }
 
 @media all and (max-width: 767px) {
-  .form-horizontal .mt-table,.form-horizontal .mt-table--full,.form-horizontal .mt-table--centered,.form-horizontal .mt-table--full,.form-horizontal .mt-td--centered-vertical {
+  .form-horizontal .mt-table,
+  .form-horizontal .mt-table--full,
+  .form-horizontal .mt-table--centered,
+  .form-horizontal .mt-table--full,
+  .form-horizontal .mt-td--centered-vertical {
     display: block;
   }
 }
@@ -133,7 +140,8 @@ section {
   margin-bottom: 30px;
 }
 
-.mt-table,.mt-table--full {
+.mt-table,
+.mt-table--full {
   display: table;
 }
 
@@ -141,7 +149,8 @@ section {
   width: 100%;
 }
 
-.mt-td,.mt-td--centered-vertical {
+.mt-td,
+.mt-td--centered-vertical {
   display: table-cell;
 }
 
@@ -199,7 +208,6 @@ h1 {
   p {
     font-size: 22px;
   }
-
   h1 {
     font-size: 60px;
   }
@@ -209,7 +217,6 @@ h1 {
   p {
     font-size: 22px;
   }
-
   h1 {
     font-size: 75px;
   }
